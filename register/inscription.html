@@ -1,0 +1,109 @@
+		<style>
+		.login-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.login-form h1 {
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form input[type="password"],
+		.login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		.login-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #535b63;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+		}
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+		.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+body {
+
+  background-image: url("2.jpg");
+  
+}
+
+
+
+	</style>
+	<head>
+	<title>Register</title>
+	</header>
+<body>
+
+
+<div id="contenu">
+
+    
+    <center>
+   
+         
+
+    <div id="paragraphe">
+        <p id="titre"><b>POURQUOI S'INSCRIRE ?</b></p>
+        <p id="description">S'incrire sur notre site est priomordial afin de bénéficier de toutes les offres que nous proposons (réservation et localisation).
+        Pour vous inscrire il vous suffit seulement de remplir le formulaire ci-dessous. Vos données seront utilisées à des fins de réservation.</p>
+
+		<center> <a href="http://172.16.105.224/SITE%20TROTTI/index.php"class="button">Home</a></center>
+		<br>
+		<center> <a href="http://172.16.105.224/SITE%20TROTTI/login/index.php"class="button">Login</a></center>
+		
+    </div>
+	
+    <div id="formulaire"class="login-form">
+        
+        <form action="inscrit.php" method="post">
+		<br>
+            <input type="text" name="nom" style="margin-right: 10px;" placeholder="Nom" />
+            <input type="text" name="prenom" placeholder="Prénom" /><br/>
+            <input type="password" name="mdp" style="margin-right: 10px;" placeholder="Mot de Passe" />
+			<input type="text" name="mail" placeholder="Adresse email"><br/>
+			<input type="text" name="annee" size="5" style="margin-left: 1px;" placeholder="Année" /><br/>
+            <input type="text" name="adresse" placeholder="Adresse" size="30" /><br/>
+            <input type="text" name="ville" placeholder="Ville" style="margin-right: 10px;" />
+			<input type="text" name="code" placeholder="Code postal" /><br/>
+            <input type="text" name="num" placeholder="Numéro de téléphone"></code><br/>
+            <input type="submit" value="S'INSCRIRE">
+		<br><br>
+        </form>
+		<br><br>
+
+    </div>
+	
+    
+ 
+
+    </center>
+</div>
+
+</body>
